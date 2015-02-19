@@ -1,6 +1,6 @@
 #the * mark tells us that there are one or more arguments, it's like the ... from java
-def what_up(greeting, *bros)
-  bros.each { |bro| puts "#{greeting}, #{bro}!" }
+def what_up(greeting, *people)
+  people.each { |bro| puts "#{greeting}, #{people}!" }
 end
 
 what_up("What up", "Justin", "Ben", "Kevin Sorbo")
@@ -15,8 +15,7 @@ def compare (a, b)
   puts res
 end
 
-compare(1,2)
-
+compare 1,2
 
 =begin
 booksort method assumes by default that you want to sort in ascending order, but it accepts a block as an optional argument that allows you, the programmer, to specify how two items should be
@@ -29,3 +28,15 @@ puts (1..5).to_a.inspect
 puts :name, :name.inspect
 #there is infact a shorter way to combine puts and inspect
 p :name
+
+# See how pharenthesis can be omitted, and keys too if and only if the hash is the last parameters and 
+# how symbols do not accept -.
+def complexMethod (a, b) 
+	puts a
+	puts b[:first]
+	puts b['se-co-nd']
+end
+
+complexMethod 23, first: 1 , 'se-co-nd' => 2 
+
+

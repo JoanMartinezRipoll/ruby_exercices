@@ -1,5 +1,4 @@
-
-print "Inster a stupid integer\n"
+print "Instert an integer\n"
 user_num = Integer(gets.chomp)
 
 #Funny things here are the elsif, end and unles
@@ -11,9 +10,9 @@ else
   puts "You picked zero!"
 end
 
-shit = false;
-unless shit
-	puts "Shit is false"
+someBool = false;
+unless someBool
+	puts "bool is false"
 else
-	puts "Shit is true"
+	puts "bool is true"
 end

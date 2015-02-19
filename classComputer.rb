@@ -7,6 +7,7 @@ class Computer
     @password = password
   end
   
+  #getter
   def current_user
     @username
   end

@@ -13,9 +13,6 @@ module MartialArts
     end
 end
 
-
-
-
 class Ninja
   include MartialArts
   def initialize(clan)
