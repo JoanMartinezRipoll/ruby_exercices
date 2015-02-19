@@ -7,7 +7,8 @@ arr.each do |x|
   puts "#{x}"
 end
 2.times {puts "#{arr[1]}"}
-#collect and map produce a new Array containing the results of the block applied to each element of the receiver:
+#collect and map produce a new Array containing the results of the block applied to each element of 
+#the receiver:
 arr.collect!{ |n| n**2} # ** es el quadrat
 a = arr.join(', ')
 puts "join was #{a}"
