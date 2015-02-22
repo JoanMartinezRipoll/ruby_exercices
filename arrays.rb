@@ -15,3 +15,8 @@ puts "join was #{a}"
 
 #RANGES
 puts arr[0..-2]
+
+#METHODS
+puts arr.empty? 
+puts arr.any?
+puts arr.count
