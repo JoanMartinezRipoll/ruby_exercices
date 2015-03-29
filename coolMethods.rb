@@ -6,7 +6,7 @@ fav = nil
 puts fav
 fav ||= "favNMan" #will set fav to favMan
 puts fav
-fav ||= "supaFavMan" #will NOT set fav to favMan
+fav ||= "supaFavMan" #will NOT set fav to supaFavMan
 puts fav
 
 #The responds_to method tells us if that object has that method, if it has a reference

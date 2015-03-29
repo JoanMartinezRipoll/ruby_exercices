@@ -40,8 +40,8 @@ That's why...
 =end
 
 def batman_ironman_proc #will return batman will win
-  victor = Proc.new { |n| return "Batman will win!" }
-  victor.call
+  victor = Proc.new { |n| return "Batman will win!#{n}" }
+  victor.call(3)
   "Iron Man will win!"
 end
 

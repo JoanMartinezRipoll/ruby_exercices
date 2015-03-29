@@ -11,7 +11,7 @@ class Computer
   end
   
   #getter
-  def current_user
+  def get_current_user
     @username
   end
   
@@ -23,7 +23,7 @@ end
 # Make a new Computer instance:
 hal = Computer.new("Dave", 12345)
 
-puts "Current user: #{hal.current_user}"
+puts "Current user: #{hal.get_current_user}"
 # @username belongs to the hal instance.
 
 puts "Manufacturer: #{$manufacturer}"
