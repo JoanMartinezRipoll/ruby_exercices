@@ -1,6 +1,8 @@
 arr = [1,2,3,4,5]
 arr.push(6)
 arr << 7
+a = [0] + [1,2,3,4]
+puts "a"
 puts "#{arr[1]} , #{arr[-1]}"
 arr.each do |x|
   x += 10
