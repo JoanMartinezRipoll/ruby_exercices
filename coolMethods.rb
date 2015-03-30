@@ -14,7 +14,7 @@ puts fav
 [1, 2, 3].respond_to?(:push) #returns true
 [1, 2, 3].respond_to?(:to_sym) #return false
 
-this is mac on master
+this is mac on master and blabla
 #parenthesis are optional in Ruby...so
 def sum a, b
   a + b
